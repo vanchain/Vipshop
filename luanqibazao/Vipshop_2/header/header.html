@@ -1,0 +1,250 @@
+<style type="text/css">
+
+	.header_top {
+		width: 100%;
+		height: 35px;
+		background-color: #f5f5f5;
+	}
+
+	.header_mid {
+		width: 100%;
+		height: 100px;
+		background-color: #FFFFFF;
+	}
+
+	.header_menu {
+		width: 100%;
+		height: 50px;
+	}
+
+	.header_top .container>div:first-child {
+		float: left;
+	}
+
+	.header_top .container>div:nth-child(2) {
+		float: right;
+	}
+
+	.header_top a {
+		display: inline-block;
+		line-height: 35px;
+		height: 35px;
+		text-align: center;
+	}
+
+	.header_top ul>li {
+		float: left;
+		margin-left: 10px;
+	}
+
+	.header_mid .left>div {
+		float: left;
+		margin-right: 10px;
+		margin-top: 15px;
+	}
+
+	.header_mid .left .weipin {
+		font-size: 35px;
+		color: #F10180;
+		font-weight: bold;
+	}
+
+	.header_mid .left .temai {
+		font-size: 20px;
+		color: #000000;
+	}
+
+	.header_mid .left ul {
+		float: left;
+		margin-left: 15px;
+	}
+
+	.header_mid .left ul>li {
+		float: left;
+		margin-right: 15px;
+	}
+
+	.header_mid .left ul>li>a {
+		display: inline-block;
+		line-height: 80px;
+		height: 80px;
+		text-align: center;
+
+	}
+
+	.header_mid .right {
+		float: right;
+		margin-top: 15px;
+	}
+
+	.header_mid .right>div {
+		float: left;
+		margin-right: 25px;
+	}
+
+	.header_mid .right input {
+		width: 450px;
+		height: 35px;
+		border-color: #F10180;
+	}
+
+
+	.header_mid .right ul>li {
+		float: left;
+		margin-right: 10px;
+	}
+
+	.header_mid .right .shopcar {
+		background-color: #F6F7F9;
+		height: 30px;
+		width: 100px;
+	}
+
+	.header_mid .right .shopcar>div {}
+
+	.header_mid .right .shopcar>div>div {
+		margin-top: -30px;
+		margin-left: 70px;
+		width: 30px;
+		height: 18px;
+		border-radius: 30px;
+		background-color: #EE017E;
+	}
+
+	.header_mid .right .shopcar>a {
+		text-align: center;
+		display: inline-block;
+		line-height: 30px;
+		height: 30px;
+		float: right;
+	}
+
+	.header_menu>ul {
+		float: left;
+	}
+
+	.header_menu ul>li {
+		float: left;
+		margin-right: 20px;
+	}
+
+	.header_menu ul>li:first-child a {
+		color: #FFFFFF;
+		text-align: center;
+		display: inline-block;
+		height: 45px;
+		line-height: 45px;
+		font-size: 15px;
+		margin-left: 18px;
+	}
+
+	.header_menu ul>li:nth-child(2) a {
+		font-size: 15px;
+		color: #F10180;
+		font-weight: bold;
+	}
+
+	.header_menu ul>li>a {
+		display: inline-block;
+		line-height: 50px;
+		height: 50px;
+		font-size: 15px;
+		color: #000000;
+		margin-right: 15px;
+	}
+</style>
+<!-- 顶部信息栏 -->
+<div class="header_top">
+	<div class="container">
+		<div>
+			<a href="#">青岛市</a>
+		</div>
+		<div>
+			<!-- 右侧菜单栏 -->
+			<ul>
+				<li><a href="#">用户/</a></li>
+				<li><a href="#">请登录/</a></li>
+				<li><a href="#">注册/</a></li>
+				<li><img src="img/label/label_10.gif"><a href="#" style="position: relative;top: -10px;">签到有礼/</a></li>
+				<li><a href="#">我的订单/</a></li>
+				<li><a href="#">我的特卖/</a></li>
+				<li><a href="#">会员俱乐部/</a></li>
+				<li><a href="#">客户服务/</a></li>
+				<li><a href="#">手机版/</a></li>
+				<li><a href="#">更多</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="header_mid">
+	<div class="container">
+		<div class="left">
+			<div>
+				<a href="#" class="weipin">唯品会</a>
+				<br>
+				<a href="#" class="temai">品 牌 特 卖</a>
+			</div>
+			<div>
+				<ul>
+					<li><img src="img/label/label_01.gif"><a href="#" style="font-size: 15px;">100%正品</a></li>
+					<li><img src="img/label/label_02.gif"><a href="#" style="font-size: 15px;">88元包邮</a></li>
+					<li><img src="img/label/label_03.gif"><a href="#" style="font-size: 15px;">退换无忧</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="right">
+			<div>
+				<input type="text">
+				<ul>
+					<li><a href="#">连衣裙 |</a></li>
+					<li><a href="#">护肤套装 |</a></li>
+					<li><a href="#">耐克Nike |</a></li>
+					<li><a href="#">女式T恤 |</a></li>
+					<li><a href="#">女士休闲裤 |</a></li>
+					<li><a href="#">女凉鞋</a></li>
+				</ul>
+			</div>
+
+			<div class="shopcar">
+				<div>
+					<img src="img/label/label_08.gif">
+					<a href="#" style="position: relative;top:-12px;left: 0px;">购物袋</a>
+					<div><a href="#" style="margin-left: 12px;margin-top;color: #FFFFFF;">0</a></div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!-- 顶部菜单导航栏 -->
+<div class="header_menu">
+	<div class="container">
+		<ul>
+			<li>
+				<div style="width: 150px;height: 45px;background-color: #F10180;">
+					<img src="img/label/1536548648745.png" style="position: relative;top: 5px;">
+					<a href="#" style="position: relative;top:-5px;">商品分类</a>
+				</div>
+
+			</li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">5.20元补贴</a></li>
+			<li>
+				<img src="img/label/1543918741016.gif" style="position: relative;top: 5px;">
+				<a href="#">最后疯抢</a>
+			</li>
+			<li><a href="#">唯品快抢</a></li>
+			<li><a href="#" style="color: #EE017E;font-weight: bold;">女装</a></li>
+			<li><a href="#">母婴</a></li>
+			<li><a href="#">家电</a></li>
+			<li><a href="#">国际</a></li>
+			<li><a href="#">美妆</a></li>
+			<li><a href="#">鞋包</a></li>
+			<li><a href="#">男装</a></li>
+			<li><a href="#">更多</a></li>
+		</ul>
+	</div>
+</div>

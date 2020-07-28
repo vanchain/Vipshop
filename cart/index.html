@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../public/reset.css" />
+		<link rel="stylesheet" href="../top/shopcart.css" />
+		<link rel="stylesheet" href="../top/fonts/iconfont.css">
+		<link rel="stylesheet" href="index.css" />
+		<title>购物车</title>
+	</head>
+	<body>
+		<!-- 页头开始 -->
+		<!-- 页头 -->
+		<iframe src="../top/top.html" width="100%" height="267px" frameborder="0" scrolliing="no"></iframe>
+		<!-- 购物车 -->
+		<div class="shop-cart">
+			<!--  -->
+			<img src="../top/topImg/shopcart.png" alt="">
+			(
+			<span>0</span>
+			)
+			<svg t="1581690781444" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3213" width="20" height="20"><path d="M347.687 144.188l-52.761 52.238 313.928 316.082-316.568 313.42 52.314 52.673 369.322-365.663z" p-id="3214"></path></svg>
+			<div class="cart clearfix">
+			</div>
+		</div>
+		<!-- 导航条 -->
+		<div class="lead">
+			<div class="w">
+				<div>
+					<ul>
+						<li class="shop">
+							<a href="#">商品分类</a>
+							<ul>
+								<li class="product-list">
+									<i class="iconfont nv"></i>
+									<a href="#">女士</a>
+									<i class="iconfont iconliwulipin arrow"></i>
+									<div class="wrapper"></div>
+								</li>
+								<li class="product-list">
+									<i class="iconfont nan"></i>
+									<a href="#">男士</a>
+									<i class="iconfont iconliwulipin arrow"></i>
+									<div class="wrapper"></div>
+								</li>
+								<li class="product-list">
+									<i class="iconfont lipin"></i>
+									<a href="#">礼品</a>
+									<i class="iconfont iconliwulipin arrow"></i>
+									<div class="wrapper"></div>
+								</li>
+								<li class="product-list">
+									<i class="iconfont iconshenghuo"></i>
+									<a href="#">生活馆</a>
+									<i class="iconfont iconliwulipin arrow"></i>
+									<div class="wrapper"></div>
+								</li>
+							</ul>
+						</li>
+						<li><a href="../list/female.html">女士</a></li>
+						<li><a href="../list/man.html">男士</a></li>
+						<li><a href="../list/gift/gift.html">礼品</a></li>
+						<li><a href="../list/livhall.html">生活馆</a></li>
+						<li><a href="#">品牌</a></li>
+						<li><a href="#">最新</a></li>
+						<li><a href="#">时尚</a></li>
+						<li><a href="#">海外馆</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 页头结束 -->
+		<div class="tonglan">
+			<div class="cart w">
+				<p class="buy-step1"></p>
+				<div class="clearfix"></div>
+				<!-- 购物车商品信息表 -->
+				<div class="cart-wrapper">
+					<table>
+						<!-- 表头 -->
+						<thead>
+							<tr>
+								<!-- 多选框 -->
+								<th width="80px" class="cart-check">
+									<input type="checkbox" value="1" class="all" />
+									全选
+								</th>
+								<th width='55px'></th>
+								<th width="233px">商品内容</th>
+								<th width="112px">商品属性</th>
+								<th width="170px">购物价</th>
+								<th width="112px">购买数量</th>
+								<th width='167px'>活动信息</th>
+								<th width='176px'>小计</th>
+								<th width='75px' class='cart_operate'>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!-- 此处为商品详情列表 -->
+						</tbody>
+					</table>
+					<!-- 购物车为空时生成 -->
+					<div class="cart-empty">
+						<p>亲~你的购物车是空的</p>
+						<a href="">去购物</a>
+					</div>
+					
+					<div class="price-total-info clearfix">
+						<div class="check-info">
+							<input type="checkbox" class="all"/>
+							<a href="javascript: void(0)">全选</a>
+							<a href="../index/index.html">继续购物</a>  |  
+							<a class="clear-all" href="javascript: void(0)">清空购物车</a>
+						</div>
+						<div class="btn-price-area">
+							<span>
+								已选商品
+								<i></i>
+								件
+							</span>
+							<span>商品总金额（不含运费）：</span>
+							<strong></strong>
+							<a class="list-buy" href="javascript: void(0)"><span class="list-buy" >点击结算</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="unlogin">
+					<p>亲~您还没有登录</p>
+					<a href="#">去登陆</a>
+				</div>
+				
+			</div>
+		</div>
+		<!-- 页脚 -->
+		<iframe src="../footer/foot.html" width="100%" height="600px" frameborder="0" scrolliing="no"></iframe>
+		
+		<script src="../data/category.js"></script>
+		<script src="../data/product.js"></script>
+		<script src="../public/js-cookie.js"></script>
+		<script src="../data/cart.js"></script>
+		<script type="text/javascript"></script>
+		<script src='../top/leadThree.js'></script>
+		<script src='index.js'></script>
+	</body>
+</html>

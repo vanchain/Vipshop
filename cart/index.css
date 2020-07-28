@@ -1,0 +1,108 @@
+/* 购物车 */
+.cart { margin: 20px auto; }
+/* 购物车 流程图 */
+.cart p.buy-step1 {
+	width: 700px;
+	height: 47px;
+	background-image: url(images/step.jpg);
+	margin-bottom: 30px;
+	float: right;
+}
+/* 商品购物表 */
+/* 商品购物表 表头 */
+table { border-collapse: collapse; }
+table>thead>tr>th {
+	font-size: 14px;
+	background-color: #EBEAEA;
+}
+table>thead>tr {
+	height: 40px;
+	border-bottom: 1px solid #999; 
+}
+table td input[type=checkbox] {
+	display: block;
+	margin-left: 12px;
+}
+/* 商品购物表 表体 */
+table tbody tr { border-bottom: 1px solid #e3e3e3;}
+table td { 
+	font-size: 12px;
+	text-align: center;
+}
+table td>a { color: #000; }
+table td>a.delete-tr { 
+	cursor: pointer;
+}
+table td>img { height: 100px; }
+/* 商品购物表 统计数目按钮 */
+table td.goods-count {}
+table td.goods-count>* { 
+	display: inline-block; 
+	float: left;
+}
+table td.goods-count>a { 
+	width: 20px; height: 20px;
+	background-color: #C8A985;
+	color: #fff;
+	cursor: pointer;
+}
+
+table td.goods-count>input { 
+	width: 50px; 
+	height: 18px;
+	border-style: none;
+	border: 1px solid #999;
+	text-align: center; 
+	line-height: 18px;
+} 
+table td.account-td { color: #000; font-weight: bold; }
+table td.goods-count>a.count-sub { margin-left: 10px; }
+table td.goods-count>a.count-sub.disabled { background-color: #aaa; }
+table td.goods-count>a.count-add.disabled { background-color: #aaa; }
+/* 商品购物表 操作项 */
+table td.operate {}
+table td.operate>a { display: block; color: #C8A985;}
+/* 商品购物表 总计金额 */
+.price-total-info { 
+	height: 85px;
+	padding-top: 50px;
+	box-sizing: border-box;
+	line-height: 35px;
+}
+.price-total-info .check-info { 
+	display: inline-block; 
+	padding-left: 12px;
+}
+.price-total-info .check-info>a {
+	font-size: 12px;
+}
+.btn-price-area { 
+	float: right; 
+	font-size: 12px;
+}
+.btn-price-area span { 
+	margin-right: 10px;
+}
+.btn-price-area strong { 
+	color: #D73128; 
+	margin-right: 10px;
+	font-size: 20px;
+}
+.btn-price-area>a { 
+	font-size: 20px;
+}
+.btn-price-area>a>span {
+	display: inline-block;
+	font-size: 14px;
+	padding: 0 35px;
+	color: #fff;
+	background-color: #D31920;	
+}
+/* 控制购物车的显示 */
+.cart-empty, .unlogin {
+	display: none;
+	/* text-align: center; */
+	margin-top: 20px;
+	font-size: 12px;
+}
+.cart-empty>p, .unlogin>p { display: inline; }

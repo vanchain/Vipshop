@@ -1,0 +1,100 @@
+@charset "utf-8";
+.left{
+	height: 120px;
+	width:770px;
+	float: left;
+}
+
+.left>a:first-child{
+	font-size: 32px;
+	color: #F62F95;
+	margin-left: 300px;
+}
+
+.left .wenti .item{
+	width: calc((100% - 20px) / 3);
+	float: left;
+	height: 200px;
+	margin-right: 10px;
+	
+}
+
+.left .wenti .item:last-child{
+	margin-right: 0px;
+}
+
+.left .wenti .item>a{
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+	left: 80px;
+	top: 20px;
+}
+
+.left .wenti .item .tubiao_top{
+	position: relative;
+	top: 30px;
+	left: 35px;
+}
+
+.left .wenti .item .tubiao_bottom{
+	position: relative;
+	top: 20px;
+	left: 30px;
+}
+
+.left .wenti .item .tubiao_top>div{
+	float: left;
+	margin-right: 10px;
+}
+
+.left .wenti .item .tubiao_bottom>div{
+	float: left;
+	margin-right: 10px;
+}
+
+.right .zizhu{
+	left: 950px;
+	
+}
+
+.right .zizhu>ul{
+	float: left;
+	margin-left: 15px;
+}
+
+.right .zizhu>ul>li{
+	height: 35px;
+	width: 225px;
+	text-align: center;
+}
+
+
+
+.right .zizhu>ul>li:first-child>a{
+	font-size: 15px;
+	color: #000000;
+	text-align: center;
+	display: inline-block;
+	line-height: 100%;
+}
+
+.right .zizhu>ul>li:last-child>a{
+	font-size: 15px;
+	color: #000000;
+	text-align: center;
+	display: inline-block;
+	line-height: 100%;
+}
+
+.right .zizhu>ul>li:nth-child(2),.right .zizhu>ul>li:nth-child(5),.right .zizhu>ul>li:nth-child(9){
+	background-color: #EDE4E4;
+	text-align: center;
+	font-weight: bold;
+}
+
+.right .zizhu>ul>li:nth-child(2)>a,.right .zizhu>ul>li:nth-child(5)>a,.right .zizhu>ul>li:nth-child(9)>a{
+	position: relative;
+	top: 10px;
+}

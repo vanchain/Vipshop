@@ -1,0 +1,569 @@
+@charset "utf-8";
+
+/* 母婴主体部分 */
+/* banner图 */
+.floor02 {
+	height: 468px;
+	width: 100%;
+	background: url(../img/muying/banner2.png)no-repeat center center;
+	margin-bottom: 60px;
+}
+
+.floor03 {
+	height: 224px;
+}
+
+.floor03 .container {
+	height: 100%;
+}
+
+.floor03 .container>.item {
+	width: calc((100% - 30px)/4);
+	margin-right: 10px;
+	float: left;
+}
+
+.floor03 .container>.item:last-child {
+	margin-right: 0;
+}
+
+.floor04 .container>.title>.pink {
+	width: 474px;
+	height: 1px;
+	background-color: #ffcbd9;
+	margin-top: 30px;
+}
+
+.floor04 .container>.title>.text {
+	width: 222px;
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+
+.floor04 .container>.title>.text>.top {
+	width: 28px;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #ffcbd9;
+}
+
+.floor04 .container>.title>.text>span:nth-child(2) {
+	display: inline-block;
+	font-size: 29px;
+	color: #000000;
+	margin-top: 10px;
+}
+
+.floor04 .container>.title>.text>span:last-child {
+	display: inline-block;
+	font-size: 8px;
+}
+
+.floor04 .container>.sort>.left ul {
+	width: 310px;
+}
+
+.floor04 .container>.sort>.left li {
+	width: 310px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ededed;
+	border-right: 0;
+	border-bottom: 0;
+	background-color: #f9f9f9;
+	text-align: center;
+}
+
+.floor04 .container>.sort>.left ul a:last-child li {
+	border-bottom: 1px solid #ededed;
+}
+
+.floor04 .container>.sort>.left li span:nth-child(1),
+.floor04 .container>.sort>.left li span:nth-child(2){
+	font-size: 18px;
+	color: #4d4d4d;
+	line-height: 30px;
+}
+
+.floor04 .container>.sort>.left li span:last-child {
+	font-size: 9px;
+}
+
+.floor04 .container>.sort>.left li:hover {
+	background-color: #FFFFFF;
+	/* color: #fd628d; 用js实现 */
+	color: #fecad6;
+}
+.floor04 .container>.sort>.left .clicked{
+	border-top: 3px solid #fd628d;
+}
+.floor04 .container>.sort>.left li .pp{
+	height: 2px;
+	width: 100%;
+}
+
+
+
+.floor04 .container>.sort>.right {
+	width: 860px;
+	height: 402;
+	border-top: 1px solid #ededed;
+}
+
+.floor04 .container>.sort>.right a {
+	height: 200px;
+	width: 172px;
+	box-sizing: border-box;
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+.floor04 .container>.sort>.right a:hover {
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+.floor04 .container>.sort>.right a>span {
+	display: inline-block;
+	margin-top: 168px;
+	font-size: 18px;
+
+}
+
+.floor04 .container>.sort>.right a {
+	background-size: cover;
+}
+
+.floor04 .container>.sort>.right a:last-child {
+	background: url(../img/muying/sort.png);
+}
+
+#right01 a:first-child {
+	background: url(../img/muying/sort11.png);
+}
+
+#right01 a:nth-child(2) {
+	background: url(../img/muying/sort12.png);
+}
+
+#right01 a:nth-child(3) {
+	background: url(../img/muying/sort13.png);
+}
+
+#right01 a:nth-child(4) {
+	background: url(../img/muying/sort14.png);
+}
+
+#right01 a:nth-child(5) {
+	background: url(../img/muying/sort15.png);
+}
+
+#right01 a:nth-child(6) {
+	background: url(../img/muying/sort16.png);
+}
+
+#right01 a:nth-child(7) {
+	background: url(../img/muying/sort17.png);
+}
+
+#right01 a:nth-child(8) {
+	background: url(../img/muying/sort18.png);
+}
+
+#right01 a:nth-child(9) {
+	background: url(../img/muying/sort19.png);
+}
+
+#right01 {
+	/* display: none; */
+}
+
+
+#right02 a:first-child {
+	background: url(../img/muying/sort21.png);
+}
+
+#right02 a:nth-child(2) {
+	background: url(../img/muying/sort22.png);
+}
+
+#right02 a:nth-child(3) {
+	background: url(../img/muying/sort23.jpg);
+}
+
+#right02 a:nth-child(4) {
+	background: url(../img/muying/sort24.png);
+}
+
+#right02 a:nth-child(5) {
+	background: url(../img/muying/sort25.png);
+}
+
+#right02 a:nth-child(6) {
+	background: url(../img/muying/sort26.png);
+}
+
+#right02 a:nth-child(7) {
+	background: url(../img/muying/sort27.png);
+}
+
+#right02 a:nth-child(8) {
+	background: url(../img/muying/sort28.png);
+}
+
+#right02 a:nth-child(9) {
+	background: url(../img/muying/sort29.png);
+}
+
+#right02 {
+	display: none;
+}
+
+#right03 a:first-child {
+	background: url(../img/muying/sort31.png);
+}
+
+#right03 a:nth-child(2) {
+	background: url(../img/muying/sort32.png);
+}
+
+#right03 a:nth-child(3) {
+	background: url(../img/muying/sort33.png);
+}
+
+#right03 a:nth-child(4) {
+	background: url(../img/muying/sort34.png);
+}
+
+#right03 a:nth-child(5) {
+	background: url(../img/muying/sort35.png);
+}
+
+#right03 a:nth-child(6) {
+	background: url(../img/muying/sort36.png);
+}
+
+#right03 a:nth-child(7) {
+	background: url(../img/muying/sort37.png);
+}
+
+#right03 a:nth-child(8) {
+	background: url(../img/muying/sort38.png);
+}
+
+#right03 a:nth-child(9) {
+	background: url(../img/muying/sort39.png);
+}
+
+#right03 {
+	display: none;
+}
+
+#right04 a:first-child {
+	background: url(../img/muying/sort41.png);
+}
+
+#right04 a:nth-child(2) {
+	background: url(../img/muying/sort42.png);
+}
+
+#right04 a:nth-child(3) {
+	background: url(../img/muying/sort43.png);
+}
+
+#right04 a:nth-child(4) {
+	background: url(../img/muying/sort44.png);
+}
+
+#right04 a:nth-child(5) {
+	background: url(../img/muying/sort45.png);
+}
+
+#right04 a:nth-child(6) {
+	background: url(../img/muying/sort46.png);
+}
+
+#right04 a:nth-child(7) {
+	background: url(../img/muying/sort47.jpg);
+}
+
+#right04 a:nth-child(8) {
+	background: url(../img/muying/sort48.png);
+}
+
+#right04 a:nth-child(9) {
+	background: url(../img/muying/sort49.png);
+}
+
+#right04 {
+	display: none;
+}
+
+#right05 a:first-child {
+	background: url(../img/muying/sort51.jpg);
+}
+
+#right05 a:nth-child(2) {
+	background: url(../img/muying/sort52.jpg);
+}
+
+#right05 a:nth-child(3) {
+	background: url(../img/muying/sort53.png);
+}
+
+#right05 a:nth-child(4) {
+	background: url(../img/muying/sort54.png);
+}
+
+#right05 a:nth-child(5) {
+	background: url(../img/muying/sort55.jpg);
+}
+
+#right05 a:nth-child(6) {
+	background: url(../img/muying/sort56.jpg);
+}
+
+#right05 a:nth-child(7) {
+	background: url(../img/muying/sort57.jpg);
+}
+
+#right05 a:nth-child(8) {
+	background: url(../img/muying/sort58.png);
+}
+
+#right05 a:nth-child(9) {
+	background: url(../img/muying/sort59.png);
+}
+
+#right05 {
+	display: none;
+}
+
+#right06 a:first-child {
+	background: url(../img/muying/sort61.png);
+}
+
+#right06 a:nth-child(2) {
+	background: url(../img/muying/sort62.png);
+}
+
+#right06 a:nth-child(3) {
+	background: url(../img/muying/sort63.png);
+}
+
+#right06 a:nth-child(4) {
+	background: url(../img/muying/sort64.png);
+}
+
+#right06 a:nth-child(5) {
+	background: url(../img/muying/sort65.jpg);
+}
+
+#right06 a:nth-child(6) {
+	background: url(../img/muying/sort66.png);
+}
+
+#right06 a:nth-child(7) {
+	background: url(../img/muying/sort67.png);
+}
+
+#right06 a:nth-child(8) {
+	background: url(../img/muying/sort68.png);
+}
+
+#right06 a:nth-child(9) {
+	background: url(../img/muying/sort69.png);
+}
+
+#right06 {
+	display: none;
+}
+
+#right07 a:first-child {
+	background: url(../img/muying/sort71.png);
+}
+
+#right07 a:nth-child(2) {
+	background: url(../img/muying/sort72.png);
+}
+
+#right07 a:nth-child(3) {
+	background: url(../img/muying/sort73.png);
+}
+
+#right07 a:nth-child(4) {
+	background: url(../img/muying/sort74.jpg);
+}
+
+#right07 a:nth-child(5) {
+	background: url(../img/muying/sort75.jpg);
+}
+
+#right07 a:nth-child(6) {
+	background: url(../img/muying/sort76.png);
+}
+
+#right07 a:nth-child(7) {
+	background: url(../img/muying/sort77.png);
+}
+
+#right07 a:nth-child(8) {
+	background: url(../img/muying/sort78.png);
+}
+
+#right07 a:nth-child(9) {
+	background: url(../img/muying/sort79.png);
+}
+
+#right07 {
+	display: none;
+}
+
+#right08 a:first-child {
+	background: url(../img/muying/sort81.png);
+}
+
+#right08 a:nth-child(2) {
+	background: url(../img/muying/sort82.png);
+}
+
+#right08 a:nth-child(3) {
+	background: url(../img/muying/sort83.png);
+}
+
+#right08 a:nth-child(4) {
+	background: url(../img/muying/sort84.png);
+}
+
+#right08 a:nth-child(5) {
+	background: url(../img/muying/sort85.png);
+}
+
+#right08 a:nth-child(6) {
+	background: url(../img/muying/sort86.png);
+}
+
+#right08 a:nth-child(7) {
+	background: url(../img/muying/sort87.jpg);
+}
+
+#right08 a:nth-child(8) {
+	background: url(../img/muying/sort88.jpg);
+}
+
+#right08 a:nth-child(9) {
+	background: url(../img/muying/sort89.jpg);
+}
+
+#right08 {
+	display: none;
+}
+
+.floor05 {
+	margin-top: 50px;
+}
+
+.floor05 .container>.title>.pink {
+	width: 404px;
+	height: 1px;
+	background-color: #ffcbd9;
+	margin-top: 30px;
+}
+
+.floor05 .container>.title>.text {
+	width: 362px;
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+
+.floor05 .container>.title>.text>.top {
+	width: 28px;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #ffcbd9;
+}
+
+.floor05 .container>.title>.text>span:nth-child(2) {
+	display: inline-block;
+	font-size: 29px;
+	color: #fd628d;
+	margin-top: 10px;
+}
+
+.floor05 .container>.title>.text>span:nth-child(3) {
+	display: inline-block;
+	font-size: 29px;
+	color: #000;
+	margin-top: 10px;
+}
+
+.floor05 .container>.title>.text>span:last-child {
+	display: inline-block;
+	font-size: 8px;
+}
+
+.floor05 .container>.shop>.item {
+	width: calc((100% - 30px)/2);
+	height: 370px;
+	float: left;
+}
+
+.floor05 .container>.shop>.item:first-child {
+	margin-right: 30px;
+}
+
+.floor05 .container>.shop>.item>a:nth-child(2) {
+	font-size: 17px;
+	font-weight: bold;
+	color: #000000;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 10px;
+	
+	width: 440px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.floor05 .container>.shop>.item>a:nth-child(4),
+.floor05 .container>.shop>.item>a:last-child {
+	font-size: 15px;
+	display: inline-block;
+	margin-top: 5px;
+	color: #4d4d4d;
+}
+
+.floor05 .container>.shop>.item>a:nth-child(4) {
+	color: #f10c82;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.floor05 .container>.shop>.item{
+	position: relative;
+}
+.floor05 .container>.shop>.item .shoucang{
+	width: 80px;
+	height: 20px;
+	background-color: #fff;
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	bottom: 100px;
+	border-radius:10px
+}
+.floor05 .container>.shop>.item .shoucang span{
+	line-height: 20px;
+	color: #000000;
+}
+.floor05 .container>.shop>.item .shoucang:hover{
+	background-color: #f10c82;
+	color: #FFFFFF;
+}
+

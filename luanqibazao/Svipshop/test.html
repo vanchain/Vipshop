@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.citys.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://pv.sohu.com/cityjson"></script>
+		<style>
+
+		</style>
+		<script type="text/javascript">
+			$(function() {
+				$('#demo2').citys({
+					required: false,
+					nodata: 'disabled',
+					onChange: function(data) {
+						var text = data['direct'] ? '(直辖市)' : '';
+						$('#place').text('当前选中地区：' + data['province'] + text + ' ' + data['city'] + ' ' + data['area']);
+					}
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<div id="demo2" class="citys">
+			<p>
+				<select name="province"></select>
+				<select name="city"></select>
+				<select name="area"></select>
+			</p>
+			<p id="place">请选择地区</p>
+		</div>
+	</body>
+</html>

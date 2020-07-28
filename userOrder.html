@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>订单管理</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/user.css" />
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/user.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.citys.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/data-option.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/userOrder.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("#left").load("userLeft.html");
+				$("#head").load("header/header_wudaohang.html");
+				$("#foot").load("footer/footer_1000.html");
+			});
+		</script>
+	</head>
+	<body>
+		<div id="head"></div>
+		<div class="floor01">
+			<div class="container">
+				<div class="title">
+					我的唯品会
+				</div>
+			</div>
+		</div>
+		<div class="floor02 fl clearfix">
+			<div class="container clearfix">
+				<div id="left"></div>
+
+
+				<!-- 订单管理 -->
+				<div class="right02 clearfix">
+					<div class="item1">
+						<span></span>
+						<a href="userOrder.html">我的唯品会</a>
+						<span>>订单管理</span>
+					</div>
+					<div class="item2">
+						<img src="img/user/jinggao.png">
+						<span>安全提醒：唯品会不会以任何理由要求您提供银行卡信息或支付额外费用，请谨记钓鱼链接或诈骗电话。</span>
+						<br>
+						<span>*为保障您的信息安全，订单信息中的联系电话已被加密隐藏。</span>
+					</div>
+					<div class="item3">
+						<span></span>
+						<a href="javascript:void(0)">
+							<div id="p1" class="p">全部订单</div>
+						</a>
+						<span></span>
+						<a href="javascript:void(0)">
+							<div id="p2" class="p">待付款</div>
+						</a>
+						<span></span>
+						<a href="javascript:void(0)">
+							<div id="p3" class="p">待收货</div>
+						</a>
+						<span></span>
+						<a href="javascript:void(0)">
+							<div id="p4" class="p">已完成</div>
+						</a>
+						<span></span>
+						<a href="javascript:void(0)">
+							<div id="p5" class="p">已取消</div>
+						</a>
+					</div>
+					<div class="item4 clearfix">
+						<div class="t1 fl"><span>商品</span></div>
+						<div class="t2 fl"><span>订单总额</span></div>
+						<div class="t3 fl"><span>订单状态</span></div>
+						<div class="t4 fl"><span>操作</span></div>
+					</div>
+					<div class="item5">
+						<img src="img/user/tishi.png" alt="">
+						没有找到符合条件的订单哦~
+					</div>
+					<div id="dingdan">
+						<div class="pp pp1">
+							<div class="top">
+								<span></span>
+								<img src="img/user/te.png">
+								<span>订单号：</span>
+								<span></span>
+							</div>
+							<table border="1" cellspacing="" cellpadding="">
+								<tr>
+									<td class="td1">
+										<img src="img/user/shop.png">
+										<div class="detail">
+											<span>男士拖鞋</span><br>
+											<span>44</span>
+										</div>
+										<span>X1</span>
+									</td>
+									<td>
+										<span>169.00</span><br>
+										<span>在线</span>
+									</td>
+									<td>
+										<span></span>
+									</td>
+									<td>
+										<a href="user.html"></a>
+									</td>
+									<td>
+										<a href="javascript:void(0)"></a>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="dingdanX" id="quanbu"></div>
+					<div class="dingdanX" id="daifukuan"></div>
+					<div class="dingdanX" id="daishouhuo"></div>
+					<div class="dingdanX" id="yiwancheng"></div>
+					<div class="dingdanX" id="yiquxiao"></div>
+					
+		</div>
+
+		</div>
+		<div id="foot"></div>
+	</body>
+</html>

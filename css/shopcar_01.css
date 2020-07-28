@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+.top .left{
+	float: left;
+	margin-left: 150px;
+}
+.top .left>a:first-child{
+	color: #E12487;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.top .left>a:nth-child(2){
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.top .left>a:nth-child(4){
+	color: #000000;
+	font-size: 15px;
+	margin-left: 8px;
+}
+
+.top .right{
+	float: right;
+	margin-right: 150px;
+}
+
+.top .right>ul>li{
+	float: left;
+	margin-right: 25px;
+}
+
+.shop_cart .item{
+	float: left;
+	position: relative;
+	left: 300px;
+	top: 30px;
+}
+
+.mid{
+	margin-top: 100px;
+}
+
+.mid a:first-child{
+	color: #E12487;
+	font-weight: bold;
+}
+
+.mid .block{
+	width: 100px;
+	height: 3px;
+	background-color: #E12487;
+	position: relative;
+	top: 8px;
+}
+
+
+/* ****************************** */
+
+.jingxuan{
+	margin-top: 25px;
+}
+
+.jingxuan .tbl td{
+	padding: 15px 0px;
+	text-align: center;
+}
+
+
+.jingxuan .tbl tr:first-child {
+	background-color: #F9F9F9;
+	height: 40px;
+}
+
+.jingxuan .tbl tr td:first-child, .jingxuan .tbl tr td:nth-child(2){
+	text-align: left;
+}
+
+
+.jingxuan .tbl tr td:first-child {
+	width: 100px;
+}
+
+
+.jingxuan .tbl tr td:nth-child(2) {
+	width: 300px;
+}
+
+
+.jingxuan .tbl tr td:nth-child(3) {
+	width: 200px;
+}
+
+
+.jingxuan .tbl tr td:nth-child(4) {
+	width: 300px;
+	text-align: center;
+}
+
+.jingxuan .tbl tr td:nth-child(5) {
+	width: 300px;
+	text-align: center;
+}
+
+.jingxuan .tbl tr:last-child div{
+	width: 40px;
+	height: 15px;
+	background-color: #FF9933;
+	color: white;
+	text-align: center;
+	margin-right: 10px;
+}
+
+/* ************************ */
+
+
+.bottom .container>div:first-child{
+	height: 50px;
+}
+
+.bottom select{
+	width: 100px;
+	height: 30px;
+	border: #E12487 1px solid;
+	color: #E12487;
+}
+
+.bottom .right{
+	float: right;
+	color: #e12487;
+}
+
+.bottom .right tr td:nth-child(2){
+	font-size: 20px;
+}
+
+.bottom .jiesuan{
+	height: 40px;
+	width: 100%;
+	background-color: #F3F3F3;
+}
+
+.bottom .jiesuan>div{
+	position: relative;
+	margin-top: 5px;
+}
+
+.bottom .jiesuan a{
+	display: inline-block;
+	background-color: #E12487;
+	height: 40px;
+	color: white;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	width: 180px;
+	position: absolute;
+	right: 0;
+}

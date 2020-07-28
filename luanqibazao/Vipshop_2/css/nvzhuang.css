@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+.adv {
+	width: 100%;
+	height: 400px;
+	background: url(../img/nvzhuang—图片素材/女装_01.jpg) no-repeat center center;
+	background-size: 100% 300px;
+}
+
+
+/* 第一个文字分栏 */
+.HOT_CATEGORY {
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.HOT_CATEGORY a:first-child {
+	font-size: 35px;
+	margin-left: 550px;
+}
+
+.HOT_CATEGORY a:nth-child(2) {
+	font-size: 35px;
+	color: #000000;
+}
+
+.HOT_CATEGORY a:nth-child(4) {
+	font-size: 12px;
+	margin-left: 575px;
+}
+
+.display {
+	width: 100%;
+	height: 450px;
+}
+
+.display .item {
+	width: calc(100% / 5);
+	height: 450px;
+	float: left;
+}
+
+.display .item>div>a {
+	font-size: 18px;
+	color: #FF6F8A;
+	margin-left: 30px;
+}
+
+.display .item>ul>li {
+	width: 100%;
+	height: calc(360px / 6);
+	background-color: #FF6F8A;
+	margin-bottom: 2px;
+}
+
+.display .item>ul>li:first-child {
+	background-color: #FFFFFF;
+
+}
+
+.display .item>ul>li:first-child a {
+	color: #FF6F8A;
+}
+
+.display .item>ul>li>a {
+	font-size: 23px;
+	color: #ffffff;
+	display: inline-block;
+	line-height: 100%;
+	height: 100%;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: 15px;
+}
+
+
+.XinTeMai{
+	width: 100%;
+}
+
+.XinTeMai a{
+	position: relative;
+	left: 500px;
+}
+
+.XinTeMai a:first-child{
+	font-size: 25px;
+	color: #000000;
+	
+}
+.XinTeMai a:nth-child(2){
+	font-size: 25px;
+	
+}
+.XinTeMai a:last-child{
+	position: relative;
+	left: 550px;
+}
+
+.ZhuanChang_display .row{
+	height: 235px;
+	width: 100%;
+}
+
+.ZhuanChang_display .row .item{
+	height: 100%;
+	margin-right: 20px;
+	width: calc((100% - 20px)/2);
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.ZhuanChang_display .row .item>div:nth-child(2){
+	margin-top: 18px;
+}
+
+.ZhuanChang_display .row .item:last-child{
+	margin-right: 0px;
+}
+
+.ZhuanChang_display .row .item a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.ZhuanChang_display .row .item a:nth-child(3){
+	font-size: 12px;
+	color: #EE017E;
+	font-weight: 100;
+}
+
+.ZhuanChang_display .row .item a:nth-child(4){
+	font-size: 12px;
+	color: #000000;
+	font-weight: 100;
+}

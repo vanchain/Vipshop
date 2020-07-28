@@ -1,0 +1,621 @@
+@charset "utf-8";
+
+/* 轮播图 */
+.banner {
+	width: 100%;
+	height: 500px;
+	background: url(../img/shouye/banner.jpg) no-repeat center center;
+}
+
+.banner .container {
+	position: relative;
+}
+
+.banner .swiper-container {
+	width: 100%;
+	height: 455px;
+	background-color: #f8f6f7;
+	margin-top: 30px;
+	padding-top: 12px;
+	padding-left: 12px;
+	box-sizing: border-box;
+	/* box-shadow: inset 0 -15px 10px -15px #515151; */
+}
+
+.banner .swiper-container .swiper-slide img {
+	display: inline-block;
+	width: 1146px;
+	height: 400px;
+}
+
+.banner ul {
+	position: absolute;
+	bottom: 3px;
+	left: 240px;
+	z-index: 10;
+}
+
+.banner ul li {
+	width: 230px;
+	height: 40px;
+	float: left;
+	padding-top: 12px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+}
+
+.banner ul li span {
+	display: inline-block;
+	width: 100%;
+	height: 14px;
+	border-right: 1px solid #ece8ec;
+}
+
+.banner ul li:last-child span {
+	border-right: none;
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+	/* 改变滚动条的高度 */
+	height: 3px !important;
+}
+
+.swiper-container .hide {
+	opacity: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: #666666 !important;
+	transition: opacity 0.5s;
+}
+
+
+/* vip大牌日 */
+.content0 {
+	width: 100%;
+	height: 390px;
+}
+
+.content0 .container{
+	height: 100%;
+}
+
+.content0 .container>div{
+	width: 100%;
+	height: 120px;
+}
+
+.content0 .container>ul li{
+	margin-right: 18px;
+	float: left;
+}
+
+.content0 .container>ul li:last-child{
+	margin-right: 0;
+}
+
+/* 第一层内容 */
+.content01 {
+	width: 100%;
+	height: 850px;
+}
+
+.content01 .container {
+	height: 100%;
+}
+
+.content01 .top {
+	margin-top: 25px;
+}
+
+.content01 .mid>div {
+	width: 570px;
+	height: 342px;
+	float: left;
+	border: 1px solid #eeeeee;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+
+.content01 .mid .left {
+	margin-right: 30px;
+	background: url(../img/shouye/left.jpg) no-repeat top center;
+}
+
+.content01 .mid .left ul {
+	margin-top: 76px;
+	margin-left: 20px;
+}
+
+.content01 .mid .left ul li {
+	width: 170px;
+	height: 250px;
+	float: left;
+	margin-right: 8px;
+}
+
+.content01 .mid .left ul li a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.content01 .mid .left ul li:first-child {
+	background: url(../img/shouye/fengqiang1.jpg) no-repeat top center;
+	background-size: 100%;
+}
+
+.content01 .mid .left ul li:nth-child(2) {
+	background: url(../img/shouye/fengqiang2.jpg) no-repeat top center;
+	background-size: 100%;
+}
+
+.content01 .mid .left ul li:last-child {
+	background: url(../img/shouye/fengqiang3.jpg) no-repeat top center;
+	background-size: 100%;
+}
+
+.content01 .mid .left ul li a div:first-child {
+	width: 122px;
+	height: 76px;
+	margin-top: 132px;
+	margin-left: 24px;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+}
+
+.content01 .mid .left ul li a div:first-child img {
+	width: 76px;
+	margin-top: 10px;
+}
+
+.content01 .mid .left ul li a div:first-child span {
+	display: inline-block;
+	margin-top: 6px;
+	font-size: 14px;
+	color: #585c64;
+}
+
+.content01 .mid .left ul li a div:last-child {
+	width: 100%;
+	height: 18px;
+	margin-top: 7px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.content01 .mid .left ul li a div:last-child img {
+	height: 18px;
+}
+
+.content01 .mid .left ul li a div:last-child span {
+	display: inline-block;
+	height: 18px;
+	color: #000000;
+	vertical-align: text-bottom;
+}
+
+.content01 .mid .right {
+	background: url(../img/shouye/right.jpg) no-repeat top center;
+}
+
+.content01 .mid .right ul {
+	margin-top: 76px;
+	margin-left: 20px;
+}
+
+.content01 .mid .right ul li {
+	width: 170px;
+	height: 250px;
+	float: left;
+	margin-right: 8px;
+}
+
+.content01 .mid .right ul li:first-child {
+	background: url(../img/shouye/paihang1.jpg) no-repeat top center;
+	background-size: 100%;
+}
+
+.content01 .mid .right ul li:nth-child(2) {
+	background: url(../img/shouye/paihang2.jpg) no-repeat top center;
+	background-size: 100%;
+}
+
+.content01 .mid .right ul li:last-child {
+	background: url(../img/shouye/paihang3.jpg) no-repeat top center;
+	background-size: 100%;
+}
+
+.content01 .mid .right ul li a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.content01 .mid .right ul li a div:first-child {
+	width: 120px;
+	height: 22px;
+	margin-top: 185px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	background-color: #d9b77a;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 22px;
+	color: #ffffff;
+}
+
+.content01 .mid .right ul li a div:last-child {
+	width: 100%;
+	height: 31px;
+	background-color: #f2f2f2;
+	text-align: center;
+	position: relative;
+	line-height: 31px;
+}
+
+.content01 .mid .right ul li a div:last-child span {
+	color: #000000;
+	font-size: 15px;
+}
+
+.content01 .mid .right ul li a div:last-child img {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+}
+
+.content01 .btm {
+	width: 100%;
+	height: 327px;
+	border: 1px solid #eee;
+	background: url(../img/shouye/bottom.jpg) no-repeat top center;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+
+.content01 .btm ul {
+	margin-left: 24px;
+	margin-top: 74px;
+}
+
+.content01 .btm ul li {
+	width: 170px;
+	height: 240px;
+	float: left;
+	margin-right: 20px;
+}
+
+.content01 .btm ul li a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.content01 .btm ul li:first-child {
+	background: url(../img/shouye/weipin1.jpg) no-repeat top center;
+	background-size: 170px;
+}
+
+.content01 .btm ul li:nth-child(2) {
+	background: url(../img/shouye/weipin2.jpg) no-repeat top center;
+	background-size: 170px;
+}
+
+.content01 .btm ul li:nth-child(3) {
+	background: url(../img/shouye/weipin3.jpg) no-repeat top center;
+	background-size: 170px;
+}
+
+.content01 .btm ul li:nth-child(4) {
+	background: url(../img/shouye/weipin4.jpg) no-repeat top center;
+	background-size: 170px;
+}
+
+.content01 .btm ul li:nth-child(5) {
+	background: url(../img/shouye/weipin5.jpg) no-repeat top center;
+	background-size: 170px;
+}
+
+.content01 .btm ul li:last-child {
+	background: url(../img/shouye/weipin6.jpg) no-repeat top center;
+	background-size: 170px;
+	margin-right: 0;
+}
+
+.content01 .btm ul li a div:first-child {
+	width: 100px;
+	height: 60px;
+	background-color: #ffffff;
+	border: 1px solid #e8e8e8;
+	box-sizing: border-box;
+	margin-top: 140px;
+	margin-left: 35px;
+	text-align: center;
+}
+
+.content01 .btm ul li a div:first-child img {
+	width: 80px;
+	margin-top: 8px;
+}
+
+.content01 .btm ul li a div:last-child {
+	width: 100%;
+	height: 18px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.content01 .btm ul li a div:last-child span:first-child {
+	width: 50px;
+	height: 18px;
+	background-color: #de3d96;
+	border-radius: 10px;
+	padding: 3px 7px;
+	color: #fff;
+}
+
+.content01 .btm ul li a div:last-child span:last-child {
+	color: #000000;
+}
+
+
+/* 第二层内容 */
+.content02{
+	width: 100%;
+	/* height: ; */
+}
+
+.content02 .container{
+	height: 100%;
+}
+
+.content02 .neirong{
+	width: 100%;
+	height: 50px;
+	margin-top: 30px;
+	background: url(../img/shouye/jingxuan.png) no-repeat top left;
+}
+
+.content02 .neirong>div:first-child{
+	width: 98px;
+	height: 43px;
+	margin-left: 270px;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+
+.content02 .neirong>div:first-child span{
+	color: #fff;
+	margin-right: 19px;
+	margin-top: 7px;
+	display: inline-block;
+}
+.content02 .neirong>div:first-child span:last-child{
+	margin-right: 0;
+}
+.content02 .neirong ul{
+	width: 1200px;
+	/* height: 370px; */
+	margin-top: 30px;
+}
+
+.content02 .neirong li{
+	width: 570px;
+	height: 370px;
+	float: left;
+	margin-right: 30px;
+	position: relative;
+}
+
+.content02 .neirong li>a{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.content02 .neirong li>a div{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.content02 .neirong li>a span:nth-child(3){
+	color: #f10582;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.content02 .neirong li>a span:nth-child(4){
+	color: #4d4d4d;
+	font-size: 14px;
+}
+
+.content02 .neirong li>a div:last-child{
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	bottom: 100px;
+	right: 13px;
+	background: url(../img/shouye/xin.png) no-repeat 7px center;
+	background-color: #fff;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 12px;
+	padding-left: 12px;
+	box-sizing: border-box;
+	display: none;
+}
+
+.content02 .neirong li>a div:last-child.change{
+	background: url(../img/shouye/xin3.png) no-repeat 7px center !important;
+	background-color: #b3b3b3 !important;
+	color: #fff;
+}
+
+.content02 .neirong li>a div:last-child:hover{
+	background: url(../img/shouye/xin2.png) no-repeat 7px center;
+	background-color: #f10582;
+	color: #fff;
+}
+
+
+/* 第三部分内容---女装 */
+.content03{
+	/* height: 1632px; */
+	margin-bottom: 70px;
+}
+.content03 .pic{
+	position: relative;
+	background: url(../img/shouye/nvzhuang.png) no-repeat left center;
+}
+
+.content03 .pic>div:first-child{
+	width: 100%;
+	height: 47px;
+	padding-left: 1073px;
+	padding-top: 22px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #1a1a1a;
+	color: #333333;
+	margin-left: 0;
+}
+
+.content03 .pic>div:first-child a{
+	width: 97px;
+	display: inline-block;
+	background: url(../img/shouye/you.jpg) no-repeat right center;
+}
+
+.content03 .pic>div:first-child a:hover{
+	background: url(../img/shouye/you2.jpg) no-repeat right center;
+	color: #f10582;
+}
+
+.content03 .pic>div:last-child{
+	width: 100%;
+	height: 44px;
+	border-top: 1px solid #e8e8e8;
+	text-align: center;
+}
+
+.content03 .pic>div:last-child a{
+	width: 324px;
+	height: 44px;
+	display: inline-block;
+	background-color: #f10180;
+	text-align: center;
+	line-height: 44px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+/* 第四部分内容---鞋包 */
+.content04 .pic{
+	background: url(../img/shouye/xiebao.png) no-repeat left center;
+}
+
+/* 第五部分内容---男装 */
+.content05 .pic{
+	background: url(../img/shouye/nanzhuang.png) no-repeat left center;
+}
+
+/* 第七部分内容---运动 */
+.content07 .pic{
+	background: url(../img/shouye/yundong.png) no-repeat left center;
+}
+
+/* 第八部分内容---饰品 */
+.content08 .pic{
+	background: url(../img/shouye/shipin.png) no-repeat left center;
+}
+
+/* 第九部分内容---美妆 */
+.content09 .pic{
+	background: url(../img/shouye/meizhuang.png) no-repeat left center;
+}
+
+/* 第十部分内容---母婴 */
+.content10 .pic{
+	background: url(../img/shouye/muying.png) no-repeat left center;
+}
+
+/* 第十一部分内容---居家 */
+.content11 .pic{
+	background: url(../img/shouye/jujia.png) no-repeat left center;
+}
+
+/* 第十二部分内容---国际 */
+.content12 .pic{
+	background: url(../img/shouye/guoji.png) no-repeat left center;
+}
+
+/* 第十三部分内容---生活 */
+.content13 .pic{
+	background: url(../img/shouye/shenghuo.png) no-repeat left center;
+}
+
+
+/* 左侧导航栏 */
+.float{
+	position: relative;
+}
+.content06{
+	width: 78px;
+	height: 428px;
+	border: 1px solid #e1e1e1;
+	box-sizing: border-box;
+	position: absolute;
+	top: 100px;
+	left: calc((100% / 2) - 693px);
+	border-radius: 5px;
+}
+
+.content06 ul{
+	width: 100%;
+	height: 100%;
+	padding-left: 6px;
+	padding-top: 5px;
+}
+
+.content06 ul li{
+	width: 64px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	border-bottom: 1px solid #eaeaea;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.content06 ul li:last-child{
+	border: none;
+}
+
+.content06 ul li a{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.content06 ul li a:hover{
+	/* color: #f10180; */
+}
+
+.content06 ul li a span{
+	height: 38px;
+	display: inline-block;
+	line-height: 38px;
+}
+
+.content06 ul li a img{
+	vertical-align: middle;
+}

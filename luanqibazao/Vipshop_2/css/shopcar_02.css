@@ -1,0 +1,40 @@
+@charset "utf-8";
+.top .left{
+	float: left;
+	margin-left: 150px;
+}
+.top .left>a:first-child{
+	color: #E12487;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.top .left>a:nth-child(2){
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.top .left>a:nth-child(4){
+	color: #000000;
+	font-size: 15px;
+	margin-left: 8px;
+}
+
+.top .right{
+	float: right;
+	margin-right: 150px;
+}
+
+.top .right>ul>li{
+	float: left;
+	margin-right: 25px;
+}
+
+.shop_cart .item{
+	float: left;
+	position: relative;
+	left: 300px;
+	top: 30px;
+}

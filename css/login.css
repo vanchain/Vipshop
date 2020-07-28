@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	*zoom: 1;
+}
+
+.floor1 {
+	height: 100px;
+	width: 100%;
+}
+
+.floor1 .lft a img {
+	margin-top: 25px;
+	float: left;
+}
+
+.floor1 .rgt {
+	float: right;
+	margin-top: 45px;
+}
+
+.floor2 {
+	background-color: #FAA8AC;
+	height: 600px;
+	width: 100%;
+}
+
+.floor2 .zuo {
+	float: left;
+	height: 300px;
+	width: 500px;
+	background: url(../img/loginzhuce/8.png) no-repeat center center;
+	margin-top: 95px;
+}
+
+.floor2 .you {
+	float: right;
+	margin-top: 50px;
+}
+
+.floor2>.login-centent {
+	margin-left: 180px;
+	float: left;
+	margin-top: 50px;
+}
+
+.floor2 .login {
+	float: right;
+	height: 420px;
+	width: 360px;
+	background-color: #fff;
+	/* margin-top: -10px; */
+	/* position: relative; */
+}
+
+.floor2 .login>.login-up {
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+.floor2 .login>.login-up a {
+	color: #999;
+	text-decoration: none;
+}
+
+.floor2 .login>.login-up a:hover {
+	color: #F10180;
+}
+
+.floor2 .login>.login-up>span {
+	padding: 0px 45px;
+	cursor: pointer;
+}
+
+.floor2 .login>.login-middle .pic {
+	height: 142px;
+	width: 142px;
+	border: 1px solid #E0E0E0;
+	/* margin-left: 95px; */
+}
+
+.floor2 .login>.login-middle>.ma {
+	text-align: center;
+	padding-top: 40px;
+	display: none;
+}
+
+.floor2 .login>.login-middle>.ma>div:hover>img.img {
+	width: 110px;
+	margin-left: 15px;
+}
+
+.floor2 .login>.login-middle>.ma>div>img.img {
+	transition: width 0.2s;
+	width: 0;
+	height: 150px;
+}
+
+.floor2 .login>.login-middle>.ma>h2 {
+	margin-top: 15px;
+}
+
+.floor2 .login>.login-middle>.ma>h2,
+.floor2 .login>.login-middle>.ma>a {
+	color: #999;
+	font-size: 11px;
+}
+
+.floor2 .login>.login-middle>.ma>h2>a,
+.floor2 .login>.login-middle>.ma>h2>a:hover {
+	color: #F10180;
+	text-decoration: none;
+}
+
+.floor2 .login>.login-middle>div.active {
+	display: block;
+}
+
+.floor2 .login>.login-middle>.hu {
+	width: 300px;
+	display: none;
+	margin: 0 auto;
+}
+
+.floor2 .login>.login-middle>.hu>form>input {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.floor2 .login>.login-middle>.hu>form>input[type=text],
+.floor2 .login>.login-middle>.hu>form>input[type=password] {
+	height: 50px;
+	margin: 10px 0;
+	font-size: 14px;
+	padding: 0 20px;
+	outline-style: none;
+	outline: 0;
+}
+
+.floor2 .login>.login-middle>.hu>form>input[type=button] {
+	margin-top: 50px;
+	height: 50px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	outline-style: none;
+	transition: background-color 1s;
+	cursor: pointer;
+}
+
+.floor2 .login>.login-middle>.hu>form>div {
+	padding-top: 15px;
+	color: #999;
+	font-size: 14px;
+}
+
+.floor2 .login>.login-middle>.hu>form>div>span {
+	position: relative;
+	bottom: 2px;
+}
+
+.floor2 .login>.login-middle>.hu>form>div>div {
+	float: right;
+}
+
+.floor2 .login>.login-middle>.hu>form>div>div>a {
+	color: #999;
+}
+
+.floor2 .login>.login-middle>.hu>form>div>div>a.z {
+	color: #F10180;
+}
+
+.floor2 .login>.login-middle>.hu .denglu {
+	height: 50px;
+	width: 300px;
+	background-color: #F10180;
+	font-size: 21px;
+	border: 1px soild #fff;
+	border-radius: 3px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.floor2 .login>.login-middle>.hu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.floor2 .login>.login-middle>.hu .denglu:hover {
+	background-color: #FAA8AC;
+}
+
+.floor2 .login>.login-middle>.hu a:hover {
+	color: #fff;
+}
+
+.floor2 .login>.login-down {
+	position: relative;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.floor2 .login>.login-down a>.item {
+	margin-top: 10px;
+	margin-left: 35px;
+	font-size: 13px;
+	color: #898989;
+	float: left;
+}
+
+.floor2 .login>.login-down a>.item:hover {
+	color: #000000;
+}
+
+.floor2 .login>.login-down a>.item1 {
+	float: left;
+	margin-left: 20px;
+	font-size: 13px;
+	color: #000;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.floor2 .login>.login-down a>.item1:hover {
+	color: #F10180;
+}
+
+.floor3 {
+	height: 60px;
+	color: #000000;
+	margin-top: 35px;
+	text-align: center;
+}
